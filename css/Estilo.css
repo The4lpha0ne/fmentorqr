@@ -1,0 +1,146 @@
+*, *::after, *::before {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+    border: 0%;
+}
+
+:root {
+    --DeepBlue: #0021f3;
+    --colorBG1: #F0F0F0;
+    --QRblue: #2B7EFA;
+    --colorA: hsl(228, 45%, 44%);
+    --colorBG2: #D6E1F0;
+    --NeonGreen : #39FF14;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+    background-color: var(--colorBG1);
+}
+
+.attribution { 
+    /* font-size: 11px;  */
+    text-align: center; 
+}
+
+.attribution a { 
+    /* color: hsl(228, 45%, 44%);  */
+    color: var(--colorA);
+}
+
+.main_section {
+    margin: 4rem 3rem;
+    padding: 4rem 3rem;
+    background-color: var(--colorBG2);
+}
+
+.sombra1 {
+    -webkit-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.5);
+    -moz-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.5);
+    box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.5);
+}
+
+.qr_space {
+    background-color: white;
+    margin: 0 auto;
+    padding: 1.2rem;
+    border-radius: 1rem;
+    height: auto;
+    width: 260px;
+    text-align: center;
+}
+
+.sombra2 {
+    -webkit-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.5);
+    -moz-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.5);
+    box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.5);
+}
+
+.qr_code {
+    width: 100%;
+    max-width: 250px;
+    height: auto;
+    border-radius: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+h1 {
+    font-size: 16px;
+    margin-bottom: 1.5rem;
+}
+
+h2 {
+    font-size: 10px;
+    color: #808080;
+}
+
+.primer_h2 {
+    margin-bottom: 1.5rem;    
+}
+
+.tercer_h2 {
+    margin-bottom: 1.5rem;        
+}
+
+.link1:link, 
+.link2:link {
+    text-decoration: none;
+    color: var(--DeepBlue);
+}
+
+.link1:visited, 
+.link2:visited {
+    text-decoration: none;
+    color: var(--QRblue);    
+}
+
+.link1:hover, 
+.link2:hover {
+    text-decoration: none;
+    color: var(--NeonGreen);    
+}
+
+/****************************************************************************************************/
+/****************************************************************************************************/
+/****************************************************************************************************/
+/****************************************************************************************************/
+
+/* width */
+::-webkit-scrollbar {
+    width: auto;
+}
+
+/* Track */
+::-webkit-scrollbar-track-piece {
+    background: black;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: var(--QRblue);
+    border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: aqua;
+}
+
+html, body {
+    overflow-x: hidden;
+    scrollbar-color: #2B7EFA black;
+    scrollbar-width: auto;
+}
+
+/****************************************************************************************************/
+/****************************************************************************************************/
+/****************************************************************************************************/
+/****************************************************************************************************/
